@@ -5,6 +5,7 @@ const Node = require('../graphGenerator');
 const BFS = require('../breadthFirstSearch');
 const DFS = require('../depthFirstSearch');
 
+
 describe('Graph Generator', () => {
   let A;
   let B;
@@ -12,6 +13,7 @@ describe('Graph Generator', () => {
   let D;
   let E;
   let F;
+<<<<<<< Updated upstream
 
   beforeEach(() => {
     A = new Node("A", "Joe");
@@ -20,6 +22,15 @@ describe('Graph Generator', () => {
     D = new Node("D", "JSON");
     E = new Node("E", "Marifel");
     F = new Node("F", "Nigel");
+=======
+  beforeEach(() => {
+     A = new Node("A", "Joe");
+     B = new Node("B", "Jon");
+     C = new Node("C", "Ray");
+     D = new Node("D", "JSON");
+     E = new Node("E", "Marifel");
+     F = new Node("F", "Nigel");
+>>>>>>> Stashed changes
   });
 
   it('should be a function that exists', () => {
