@@ -20,11 +20,12 @@ const DFS = (start, searchFor) => {
     }
 
     if(visited.indexOf(currentNode) === -1) {
-      visited.push(currentNode);
+      visited.push(currentNode.name);
 
       currentNode.neighbors.forEach((neighbor) => {
         stack.push(neighbor);
         console.log('stack: ', stack);
+        console.log('visited: ', visited);
       });
     }
   }
