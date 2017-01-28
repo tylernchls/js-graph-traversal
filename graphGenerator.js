@@ -17,11 +17,9 @@ const Node = class {
     }
   }
 
-  // getNeighbors() {
-  //   return this.neighbors;
-  // }
-
-
+  getNeighbors() {
+    return this.neighbors;
+  }
 };
 
 
